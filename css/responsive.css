@@ -1,0 +1,316 @@
+
+/* 01. Mobile Device From 0px to 500px */
+
+@media (min-width: 0px) and (max-width: 500px) 
+/*Starting Curly Bracket*/
+{
+/*Starting Curly Bracket*/
+.slider-content h1 {
+    padding-top: 100px;
+    font-size: 65px;
+}
+.slider-content span {
+	width: 331px;
+}
+.slider-content p {
+    padding-top: 21px;
+	padding-bottom: 21px;
+	font-size: 13px;
+}
+
+.header-button {
+	padding-bottom: 60px;
+}
+.btn {
+	padding: 12px 23px;
+	font-size: 12px;
+}
+.header-down {
+	padding-bottom: 59px;
+}
+/*Sinple Area Start*/
+.simple-content h2 {
+	color: #2d3950;
+	font-size: 30px;
+	padding-bottom: 12px;
+}
+.simple-content p {
+	font-size: 12px;
+	color: #9f9f9f;
+	line-height: 24px;
+}
+.simple-area {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+/*Sinple Area End*/
+
+
+/*Service Area Start*/
+.service-area {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.service-content {
+	text-align: center;
+	padding-top: 40px;
+}
+.service-content h4 {
+	font-size: 18px;
+	padding-bottom: 0px;
+}
+
+/*Service Area End*/
+
+
+/*Protfolio Area Start*/
+.contact-section {
+	padding-bottom: 45px;
+}
+.portfolio-area {
+    padding-top: 35px;
+}
+
+.portfolio-area h2 {
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+.portfolio-content p {
+	padding-bottom: 10px;
+}
+.checkbox-area a {
+    margin-left: 62%;
+    padding: 10px 45px;
+    font-size: 14px;
+}
+.portflio-thumb-content a {
+	padding: 9px;
+	font-size: 5px;
+	margin-left: 7px;
+}
+
+/*Protfolio Area End*/
+
+/*Contact Title Area Start*/
+.contact-title h2 {
+	padding-top: 35px;
+	padding-bottom: 6px;
+	font-size: 35px;
+}
+.contact-title p {
+    padding-bottom: 23px;
+}
+.check-box {
+	margin-top: 26px;
+}
+.checkbox-area span {
+  top: 21px;
+}
+.checkbox-area a {
+    top: 8px;
+    margin-left: 59%;
+}
+form {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+
+
+
+
+/*End Curly Bracket*/
+}
+/*End Curly Bracket*/
+
+
+
+
+ /*============================================*/
+/* 02. Small Device From 500.01px to 768px */
+@media (min-width: 500.01px) and (max-width: 768px) 
+/*Starting Curly Bracket*/
+{
+/*Starting Curly Bracket*/
+    
+.slider-content h1 {
+	padding-top: 140px;
+    font-size: 80px;
+}
+.slider-content span {
+    width: 375px;
+}
+.slider-content p {
+    padding-top: 17px;
+	padding-bottom: 30px;
+	font-size: 16px;
+}
+.header-button {
+	padding-bottom: 100px;
+}
+.btn {
+	padding: 13px 30px;
+    font-size: 15px;
+}
+.header-down {
+	padding-bottom: 45px;
+}
+
+/*Simple Area Start*/
+.simple-area {
+   padding-top: 50px;
+   padding-bottom: 0px;
+}
+.simple-content h2 {
+	font-size: 35px;
+	padding-bottom: 10px;
+}
+.simple-content p {
+	font-size: 14px;
+    line-height: 26px;
+}
+/*Simple Area End*/
+
+
+/*Service Area Start*/
+.service-area {
+    padding-bottom: 0px;
+}
+.service-content a {
+    width: 80px;
+    height: 80px;
+    font-size: 35px;
+    padding-top: 9px;
+}
+.service-content h4 {
+	font-size: 18px;
+	padding-top: 22px;
+	padding-bottom: 7px;
+}
+.service-content p {
+    font-size: 12px;
+	
+}
+/*Service Area End*/
+
+/*Protfolio Area Start*/
+
+.portfolio-area {
+	padding-top: 45px;
+}
+.portfolio-content p {
+	padding-bottom: 20px;
+}
+/*Protfolio Area End*/
+
+.contact-section {
+    padding-bottom: 80px;
+}
+.contact-title h2 {
+	padding-top: 40px;
+	padding-bottom: 6px;
+	font-size: 35px;
+}
+.contact-title p {
+    padding-bottom: 20px;
+
+}
+
+.check-box {
+	margin-top: 25px;
+	margin-right: 15px;
+
+}
+.checkbox-area span {
+	top: 22px;
+}
+.checkbox-area a {
+	margin-left: 65%;
+	top: 11px;
+	padding: 8px 23px;
+	font-size: 16px;
+
+}
+
+
+
+
+
+/*End Curly Bracket*/
+}
+/*End Curly Bracket*/
+
+
+ /*============================================*/
+/* 03. Medium Device From 768.01px to 1200px */
+@media (min-width: 768.01px) and (max-width: 1200px) 
+/*Starting Curly Bracket*/
+{
+/*Starting Curly Bracket*/
+.slider-content h1 {
+	padding-top: 160px;
+	font-size: 100px;
+}
+.slider-content span {
+	width: 470px;
+}
+.slider-content p {
+	padding-bottom: 60px;
+	font-size: 16px;
+}
+.header-button {
+	padding-bottom: 140px;
+}
+    
+
+.simple-content p {
+    font-size: 15px;
+    line-height: 32px;
+}
+.service-area {
+    padding-top: 15px;
+	padding-bottom: 0px;
+}
+.service-content p {
+	font-size: 15px;
+}
+.portfolio-content p {
+	padding-bottom: 15px;
+}
+.checkbox-area a {
+    padding: 12px 34px;
+    right: 0;
+	
+}
+
+
+
+
+
+
+/*End Curly Bracket*/
+}
+/*End Curly Bracket*/
+
+
+
+
+ /*============================================*/
+/*04. Large Device From 1200.01px to Limit Device*/
+@media (min-width: 1200.01px) 
+/*Starting Curly Bracket*/
+{
+/*Starting Curly Bracket*/
+    
+
+
+
+
+
+
+
+/*End Curly Bracket*/
+}
+/*End Curly Bracket*/

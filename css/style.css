@@ -1,0 +1,386 @@
+
+/*================
+  Global CSS Start
+==================*/
+
+.no-padding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+
+/*================
+  Header Area Start
+==================*/
+.header-area{
+    padding: 30px 0px;
+}
+/*================
+  Header Area End
+==================*/
+
+
+
+
+
+/*================
+  Slider-Area Start
+==================*/
+.single-slider{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slider-content{
+    text-align: center;
+}
+.slider-content h1{
+    padding-top: 175px;
+    font-size: 120px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 13px;
+}
+.slider-content span{
+    position: absolute;
+    content: "";
+    background-color: #15a3f9;
+    height: 2px;
+    width: 550px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.slider-content p{
+    color: #fff;
+    padding-top: 35px;
+    padding-bottom: 65px;
+    font-size: 20px;
+}
+.header-button{
+    padding-bottom: 175px;
+}
+.btn {
+	padding: 16px 40px;
+	border: 1px solid #15a3f9;
+	color: #fff;
+    font-size: 18px;
+    border-radius: 2px;
+    transition: .8s ease;
+    font-weight: 600;
+}
+.btn:hover {
+    background-color: #fff;
+    color: #222;
+    transition: .8s ease;
+}
+.header-down {
+    text-align: center;
+    padding-bottom: 84px;
+}
+.header-down a {
+	color: #fff;
+	font-size: 26px;
+}
+/*================
+  Slider-Area End
+==================*/
+
+
+/*================
+  Simple-Area Start
+==================*/
+.simple-area {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+.simple-content h2{
+    color: #2d3950;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.simple-content p {
+    font-size: 20px;
+    color: #9f9f9f;
+    line-height: 35px;
+}
+
+/*================
+  Simple-Area End
+==================*/
+
+
+/*===============
+Service Area Start
+==================*/
+
+.service-area{
+    background-color: #fff;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.service-content {
+    text-align: center;
+    
+}
+.service-content a {
+    background-color: #5fc3ff;
+	display: inline-block;
+	color: #fff;
+	border-radius: 4px;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+    font-size: 60px;
+    
+}
+.service-content a {
+    position: relative;
+    z-index: 999999999;
+  }
+  .service-content a::before {
+	position: absolute;
+	background-color: #48baff;
+	content: "";
+	height: 100%;
+	width: 50%;
+	left: 0%;
+	opacity: 0;
+	visibility: hidden;
+	transition: .6s ease;
+	z-index: -5;
+	top: 0;
+}
+  .service-content a:hover::before {
+	visibility: visible;
+    opacity: 1.8;
+    right: 50%;
+    transition: .6s ease;
+}
+/* .service-content a::after {
+	position: absolute;
+	background-color: ;
+	content: "";
+	height: 100%;
+	width: 50%;
+    right: 0%;
+    visibility: hidden;
+    opacity: 0;
+    transition: .8s;
+    z-index: -5;
+
+}
+.service-content a:hover::after {
+	visibility: visible;
+    opacity: 1;
+    transition: .8s;
+    left: 50%;
+} */
+.service-content h4 {
+	font-size: 22px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.service-content p {
+	color: #a0a0a0;
+	font-size: 15px;
+	line-height: 24px;
+}
+/*===============
+Service Area End
+==================*/
+.portfolio-section {
+   padding-bottom: 80px;
+}
+.portfolio-area{
+    padding-top: 80px;
+    text-align: center;
+}
+.portfolio-area h2{
+    color: #2d3950;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.portfolio-content p {
+	padding-bottom: 69px;
+}
+.portfolio-wrapper{
+    position: relative;
+    padding: 8px;
+}
+.portfolio-thumb {
+    position: relative;
+  }
+  .portfolio-thumb::before {
+    position: absolute;
+    background: #25a7f5;
+    content: "";
+    height: 100%;
+    left: 0;
+    visibility: hidden;
+    width: 100%;
+    opacity: 0;
+
+  }
+  .portfolio-wrapper:hover .portfolio-thumb::before {
+    visibility: visible; opacity:.85; cursor: pointer;
+    transition: .8s ease;
+  }
+  .portfolio-thumb img {
+    width: 100%;
+  }
+  .portflio-thumb-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    visibility: hidden;
+    opacity: 0;
+  }
+  .portfolio-wrapper:hover .portflio-thumb-content{
+      visibility: visible;
+      opacity: 100%;
+      transition: .8s ease;
+      cursor: pointer;
+  }
+  .portflio-thumb-content a {
+	padding: 13px;
+	font-size: 15px;
+	color: #fff;	
+	font-weight: 700;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	margin-left: 9px;
+}
+
+/*======================
+Contact Section Start
+=======================*/
+.contact-section{
+    background-color: #2b364a;
+    padding-bottom: 120px;
+}
+.contact-title h2{
+    color: #fff;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-size: 41px;
+    text-align: center;
+}
+.contact-title p{
+    color: #666b75;
+    padding-bottom: 50px;
+    font-size:15px ;
+    text-align: center;
+}
+
+input {
+	width: 100%;
+    margin-bottom: 20px;
+    background: no-repeat;
+    border: 1px solid #999;
+    border-radius: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 26px;
+    color: #9aa1aa;
+    font-size: 15px;
+
+}
+textarea {
+	border: 1px solid #999;
+    border-radius: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 26px;
+    color: #9aa1aa;
+    font-size: 17px;
+    width: 100%;
+}
+.message {
+	background: none;
+}
+
+.check-box {
+	background: #99a0a9;
+	height: 16px;
+	width: 16px;
+	border: none;
+	margin-top: 41px;
+	margin-right: 38px;
+	border-radius: 2px;
+}
+.checkbox-area span {
+	color: #fff;
+	font-size: 15px;
+}
+.checkbox-area span {
+    position: absolute;
+    top: 39px;
+  }
+  .checkbox-area {
+    position: relative;
+    margin-top: 15px;
+  }
+.checkbox-area a {
+	margin-left: 61%;
+	top: 21px;
+	position: absolute;
+	color: #fff;
+	padding: 15px 60px;
+	border: 1px solid #15a3f9;
+	font-size: 18px;
+	border-radius: 3px;
+	transition: .8s ease;
+	text-decoration: none;
+}
+.checkbox-area a:hover{
+    background-color: #15a4fa;
+    transition: .8s ease;
+    opacity: .5s;
+}
+/*======================
+Contact Section End
+=======================*/
+
+.footer-section{
+    background-color: #f6f9f9;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.footer-left{
+    float: left;
+}
+.footer-left h3 {
+    color: #999999;
+    font-size: 15px;
+    padding-top: 11px;
+    font-weight: 600;
+}
+.footer-right{
+    float: right;
+}
+.footer-right a {
+	background-color: #15a4fa;
+	color: #fff;
+	margin: 2px;
+	border-radius: 2px;
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+	left: 5;
+	line-height: 30px;
+    text-align: center;
+    transition: .8s ease;
+}
+.footer-social-icon a:hover {
+    background-color: #2b364a;
+    transition: .8s ease;
+}
